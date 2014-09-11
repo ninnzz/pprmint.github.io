@@ -1,0 +1,152 @@
+/** Main CSS File **/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	font-family: "Courier New", Courier, monospace;
+	background : #000;
+	color: #15E631;
+}
+
+pre {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-container {
+	width: 100%;
+}
+
+#header-name {
+	margin-top: 20px;
+	width: 505px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#contact {
+	width: 360px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-variant: normal;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #BF0000;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contact a:hover {
+	color: #e0e0e0;
+}
+
+#contact .contact-item {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 5px;
+}
+
+#commands {
+	margin-top: 50px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.root-name {
+	color: #BF0000;
+	font-weight: bolder;
+}
+
+#cmd-txt {
+	width: 1px;
+	height: 1px;
+	position: fixed;
+	left: -20px;
+	top: 0px;
+}
+
+.cursor-blink {
+	background: #BF0000;
+	-webkit-animation: cblink 1.5s linear 0s infinite;
+	-moz-animation: cblink 1.5s linear 0s infinite;
+	-ms-animation: cblink 1.5s linear 0s infinite;
+	-o-animation: cblink 1.5s linear 0s infinite;
+}
+
+
+.result {
+	margin-left: 30px;
+}
+
+.white {
+	color: #f0f0f0;
+}
+
+
+
+
+
+/** Animations **/
+
+
+
+@-webkit-keyframes cblink {
+	47%  { background: #BF0000 }
+	50%  { background: #000 }
+	97%  { background: #000 }
+	100% { background: #BF0000 }
+}
+
+@-moz-keyframes blink {
+	47%  { background: #BF0000 }
+	50%  { background: #000 }
+	97%  { background: #000 }
+	100% { background: #BF0000 }
+}
+ 
+@-ms-keyframes blink {
+	47%  { background: #BF0000 }
+	50%  { background: #000 }
+	97%  { background: #000 }
+	100% { background: #BF0000 }
+}
+ 
+@-o-keyframes blink {
+	47%  { background: #BF0000 }
+	50%  { background: #000 }
+	97%  { background: #000 }
+	100% { background: #BF0000 }
+}
+
+
+
+
+
+
+
+/** Media Queries **/
+@media all and (max-width: 600px) {
+	#header-name {
+		margin-top: 30px;
+		width: 360px;
+        font-size: 10px;
+		font-weight: bold;
+    }
+
+}
+@media all and (max-width: 500px) {
+    #header-name {
+		margin-top: 40px;
+		width: 325px;
+        font-size: 9px;
+		font-weight: bold;
+    }
+}
