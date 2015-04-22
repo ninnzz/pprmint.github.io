@@ -63,7 +63,7 @@ var available_cmd = {
 
 		switch(type) {
 			case 3:
-				dv.innerHTML = '<div class="command-item"><span>&nbsp;-bash cannot ' + str + ': Command not found</span></div>';	
+				dv.innerHTML = '<div class="command-item"><span>&nbsp;-bash cannot do' + str + ': ' + str + ' does not exist!</span></div>';	
 				break;
 
 			case 2:
