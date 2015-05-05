@@ -52,7 +52,7 @@ var available_cmd = {
 
 			}
 		},
-		under-construction : {
+		under_construction : {
 			m : "To know more, browser's console! :P",
 			e : 1,
 			u : 'F12, cmd + opt + i',
