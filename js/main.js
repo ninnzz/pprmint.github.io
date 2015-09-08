@@ -25,7 +25,7 @@ var available_cmd = {
                 write_result(   '<br/> <p>Call me Ninz! Avid dreamer (and heavy sleeper). Has a crush on music. Loves to play around with technology. Wants to marry astronomy and physics. </p>' +
                                 '<p>Currently tinkering with backend and systems architecture stuff!  Building API and backend processing of data is my daily supplement. </p>' +
                                 '<p>Computer science graduate from one of the top universities in PH. If you can\'t find me on the front of my laptop/PC doing some eloquent stuff ' +
-                                'or with my guitar playing some majestic riffs, then I\'m probably with my trusty mountain bike exploring the world! :P', 1);
+                                'or with my guitar playing some majestic riffs, then I\'m probably with my trusty mountain bike exploring the world! :P </p>', 1);
             }
         },
         clear : {
@@ -51,7 +51,7 @@ var available_cmd = {
             e : 2,
             u : 'portfolio',
             f : function () {
-                
+
 
             }
         },
