@@ -22,10 +22,10 @@ var available_cmd = {
             e : 1,
             u : 'whoami',
             f : function () {
-                write_result(   '<br/> <p>Call me <em class="root-name" >Ninz </em>! Avid dreamer (and heavy sleeper). Has a crush on music. Loves to play around with technology. Wants to marry astronomy and physics. </p>' +
-                                '<p>Currently tinkering with backend and systems architecture stuff!  Building API and backend processing of data is my daily supplement. </p>' +
+                write_result(   '<br/> <p>Call me <em class="white" >Ninz </em>! Avid dreamer (and heavy sleeper). Has a crush on <em class="white" >music </em>. Loves to play around with <em class="white" >technology</em>. Wants to marry <em class="white" >astronomy</em> and <em class="white" >physics</em>. </p>' +
+                                '<p>Currently tinkering with <em class="white" >backend</em> and <em class="white" >systems architecture</em> stuff!  Building <em class="white" >API</em> and backend processing of data is my daily supplement. </p>' +
                                 '<p>Computer science graduate from one of the top universities in PH. If you can\'t find me on the front of my laptop/PC doing some eloquent stuff <br/>' +
-                                'or with my guitar playing some majestic riffs, then I\'m probably with my trusty mountain bike exploring the world! :P </p>', 1);
+                                'or with my guitar playing some majestic riffs, then I\'m probably with my <em class="white" >trusty mountain bike</em> exploring the world! :P </p>', 1);
             }
         },
         clear : {
