@@ -7,7 +7,7 @@ var available_cmd = {
             u: 'ninipot',
             f: function() {
                 write_result(
-                    '<br/> <p>I am but a <em class="white">shell</em> of my true self, if you want to find the answer, you just need to <em class="white">look inside</em>!!!!!! </p><br/>');
+                    '<br/> <p>I am but a <em class="white">shell</em> of my true self, if you want to find the answer, you just need to <em class="white">look inside</em>!!!!!! </p><br/>', 1);
             }
         },
         help : {
