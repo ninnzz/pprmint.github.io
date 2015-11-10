@@ -2,7 +2,7 @@
 
 var available_cmd = {
         ninipot:{
-            m: "Just for my gf's birthday!"
+            m: "Just for my gf's birthday!",
             e: 1,
             u: 'ninipot',
             f: function() {
