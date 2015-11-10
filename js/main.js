@@ -1,6 +1,15 @@
 /** JS FILE **/
 
 var available_cmd = {
+        ninipot:{
+            m: "Just for my gf's birthday!"
+            e: 1,
+            u: 'ninipot',
+            f: function() {
+                write_result(
+                    '<br/> I am but a <em class="white">shell</em> of my true self, if you want to find the answer, you just need to <em class="white">look inside</em>!!!!!! <br/>');
+            }
+        },
         help : {
             m : "Displays the list of all available commands.",
             e : 1,
