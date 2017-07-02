@@ -46,13 +46,12 @@ var available_cmd = {
                 write_result(false, 0);
             }
         },
-        portfolio : {
-            m : "Displays the list of projects.",
+        resume : {
+            m : "Downloads the user's resume.",
             e : 2,
-            u : 'portfolio',
+            u : 'resume',
             f : function () {
-
-
+                window.open('https://cvs-kickresume-com.s3.amazonaws.com/203955/7d4ad4b407012450d5fd1bd1b690a6a3/cv.pdf');
             }
         },
         under_construction : {
